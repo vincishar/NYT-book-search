@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.App{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  border: 3px solid black;
+  padding: 15px 5px;
+}
+
+.search {
+  width: 100%;
+}
+
+.searchForm{
+  width: 100%;
+}
+
+.form-control{
+  margin-bottom: 10px;
+}
+
+.searchBtn{ 
+  float: right;
+}
+
+.section1{
+  text-align: center;
+  padding-top: 15px; 
+  padding-bottom: 30px;
+  border: 3px solid black;
+  margin: 20px 10px;
+}
+
+.section2{ 
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px solid black;
+  margin: 20px 10px;
+}
+
+.section3{
+  padding: 15px 10px; 
+  border: 3px solid black;
+  width: 100%;
+}
+
+.result{
+  margin-bottom: 15px;
+}
+
+.section3 ul li{
+  list-style: none;
+}
+
+.item{
+  padding: 10px;
+  border: 3px solid black; 
+  width: 100%;
+}
+
+.section3 img{
+  width: 100px;
+  height: 100px; 
+}
+
+.bookImage{
+  width: 100%;
+}
+
+.bookImage img{
+  display: inline-block;
+  width: 18%;
+}
+
+.bookImage p{
+  display: inline-block;
+  width: 80%;
+  margin-left: 2%;
+}
+
+.bookInfo{
+  width: 100%;
+  display: inline-block;
+}
+
+.navLeft{
+  display: inline-block;
+  width: 80%;
+}
+
+.navRight{
+  width: 18%; 
+  float: right;
+}
+
+.navRight ul li{
+  float: left;
+  width: 49%;
+}
+
+.navRight a{
+  color: black;
+  font-size: 20px; 
+  text-decoration: none; 
+}
